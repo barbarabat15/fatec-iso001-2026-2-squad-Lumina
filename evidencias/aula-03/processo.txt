@@ -1,0 +1,33 @@
+=== INICIO ===
+PID=8920
+=== PS ===
+    PID    PPID STAT  NI COMMAND
+   8920    8917 S+     0 sleep
+=== /proc/8920/status ===
+Name:	sleep
+Umask:	0022
+State:	S (sleeping)
+Tgid:	8920
+Ngid:	0
+Pid:	8920
+PPid:	8917
+TracerPid:	0
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+FDSize:	256
+Groups:	985 986 987 988 989 990 991 992 993 994 995 996 1000 1001 
+NStgid:	8920
+NSpid:	8920
+NSpgid:	8917
+NSsid:	1389
+Kthread:	0
+VmPeak:	    6116 kB
+VmSize:	    6116 kB
+VmLck:	       0 kB
+VmPin:	       0 kB
+VmHWM:	    2124 kB
+VmRSS:	    2124 kB
+RssAnon:	     116 kB
+RssFile:	    2008 kB
+=== ENCERRANDO ===
+    PID TTY          TIME CMD
