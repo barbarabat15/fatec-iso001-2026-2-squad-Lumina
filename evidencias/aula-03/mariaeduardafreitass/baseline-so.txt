@@ -1,0 +1,34 @@
+=== USUARIO ===
+codespace
+uid=1000(codespace) gid=1000(codespace) groups=1000(codespace),985(pipx),986(python),987(oryx),988(golang),989(docker),990(sdkman),991(rvm),992(php),993(conda),994(nvs),995(nvm),996(hugo),1001(ssh)
+=== KERNEL ===
+6.8.0-1052-azure
+=== DISTRIBUICAO ===
+PRETTY_NAME="Ubuntu 24.04.4 LTS"
+NAME="Ubuntu"
+VERSION_ID="24.04"
+VERSION="24.04.4 LTS (Noble Numbat)"
+VERSION_CODENAME=noble
+ID=ubuntu
+ID_LIKE=debian
+HOME_URL="https://www.ubuntu.com/"
+=== MEMORIA ===
+               total        used        free      shared  buff/cache   available
+Mem:           7.8Gi       2.0Gi       200Mi        64Mi       5.9Gi       5.7Gi
+Swap:             0B          0B          0B
+=== DISCO DO PROJETO ===
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/loop4       32G  9.7G   21G  33% /workspaces
+=== PROCESSOS ===
+    PID    PPID STAT %CPU %MEM COMMAND
+   2274    2250 Sl    1.9  4.1 MainThread
+   2250    2241 Sl    0.5  2.2 MainThread
+   2819    2250 Sl    0.1  0.9 MainThread
+   2298    2250 Sl    0.1  1.6 MainThread
+   2851    2298 Sl    0.1  3.0 MainThread
+    569     256 Ssl   0.0  0.6 containerd
+    256       1 Sl    0.0  1.1 dockerd
+      7       1 S     0.0  0.0 sh
+   2946    2274 Sl    0.0  1.0 MainThread
+   2310    2250 Sl    0.0  0.7 MainThread
+   4136    2819 Ss    0.0  0.1 bash

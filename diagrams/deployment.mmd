@@ -1,0 +1,11 @@
+flowchart LR
+ U[Paciente / Recepcionista] --> WEB[Interface Web]
+ subgraph HOST[Host / VM - Sistema Operacional]
+ WEB --> API[API de Agendamento]
+ API --> DB[(Banco de Prontuários)]
+ API --> FS[(Storage de Exames/Laudos)]
+ API --> NOTIF[Serviço de Notificação]
+ API --> OBS[Logs / Métricas]
+ end
+ NOTIF --> EXT[SMS/E-mail - Sistema Externo]
+ 

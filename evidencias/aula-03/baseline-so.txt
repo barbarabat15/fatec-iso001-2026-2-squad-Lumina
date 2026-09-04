@@ -1,0 +1,70 @@
+ DATA ===
+Tue Aug 25 17:58:27 UTC 2026
+=== USUARIO ===
+codespace
+uid=1000(codespace) gid=1000(codespace) groups=1000(codespace),985(pipx),986(python),987(oryx),988(golang),989(docker),990(sdkman),991(rvm),992(php),993(conda),994(nvs),995(nvm),996(hugo),1001(ssh)
+=== KERNEL ===
+Linux codespaces-5647b0 6.8.0-1052-azure #58~22.04.1-Ubuntu SMP Thu Mar 26 05:02:21 UTC 2026 x86_64 x86_64 x86_64 GNU/Linux
+=== DISTRIBUICAO ===
+PRETTY_NAME="Ubuntu 24.04.4 LTS"
+NAME="Ubuntu"
+VERSION_ID="24.04"
+VERSION="24.04.4 LTS (Noble Numbat)"
+VERSION_CODENAME=noble
+ID=ubuntu
+ID_LIKE=debian
+HOME_URL="https://www.ubuntu.com/"
+SUPPORT_URL="https://help.ubuntu.com/"
+BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+UBUNTU_CODENAME=noble
+LOGO=ubuntu-logo
+=== CPU ===
+Architecture:                            x86_64
+CPU op-mode(s):                          32-bit, 64-bit
+Address sizes:                           48 bits physical, 48 bits virtual
+Byte Order:                              Little Endian
+CPU(s):                                  2
+On-line CPU(s) list:                     0,1
+Vendor ID:                               AuthenticAMD
+Model name:                              AMD EPYC 9V74 80-Core Processor
+CPU family:                              25
+Model:                                   17
+Thread(s) per core:                      2
+Core(s) per socket:                      1
+Socket(s):                               1
+Stepping:                                1
+BogoMIPS:                                5192.27
+Flags:                                   fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl tsc_reliable nonstop_tsc cpuid extd_apicid aperfmperf tsc_known_freq pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm cmp_legacy svm cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw topoext vmmcall fsgsbase bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves user_shstk clzero xsaveerptr rdpru arat npt nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold v_vmsave_vmload umip vaes vpclmulqdq rdpid fsrm
+Virtualization:                          AMD-V
+Hypervisor vendor:                       Microsoft
+Virtualization type:                     full
+L1d cache:                               32 KiB (1 instance)
+=== MEMORIA ===
+               total        used        free      shared  buff/cache   available
+Mem:           7.8Gi       2.1Gi       247Mi        62Mi       5.8Gi       5.7Gi
+Swap:             0B          0B          0B
+=== DISCO ===
+Filesystem      Size  Used Avail Use% Mounted on
+overlay          32G   10G   20G  34% /
+tmpfs            64M     0   64M   0% /dev
+shm              64M     0   64M   0% /dev/shm
+/dev/root        29G   14G   15G  49% /vscode
+/dev/loop4       32G   10G   20G  34% /workspaces
+/dev/sdc1        44G  1.9G   40G   5% /tmp
+=== PROCESSOS ===
+    PID    PPID USER     STAT %CPU %MEM COMMAND
+    602     443 codespa+ Sl    2.2  4.6 MainThread
+    443     424 codespa+ Sl    0.6  2.1 MainThread
+   1087     617 codespa+ Sl    0.2  3.7 MainThread
+    617     443 codespa+ Sl    0.2  1.7 MainThread
+   1121     443 codespa+ Rl    0.1  0.9 MainThread
+     58       1 root     Sl    0.0  1.1 dockerd
+    147      58 root     Ssl   0.0  0.6 containerd
+   1152     602 codespa+ Sl    0.0  0.9 MainThread
+    626     443 codespa+ Sl    0.0  0.7 MainThread
+      7       1 codespa+ S     0.0  0.0 sh
+   1389    1121 codespa+ Ss    0.0  0.1 bash
+      1       0 codespa+ Ss    0.0  0.0 docker-init
+   3514       0 codespa+ Ss    0.0  0.0 sh
+    424       0 codespa+ Ss    0.0  0.0 sh===

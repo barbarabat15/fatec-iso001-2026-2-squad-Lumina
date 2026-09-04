@@ -1,0 +1,4 @@
+]633;E;echo "=== PERMISSOES ===";d86cf59e-f1f6-4c6d-a08d-010ba87b8a57]633;C=== PERMISSOES ===
+---------- 1 codespace codespace 29 Sep  4 18:28 laboratorio/mariaeduardafreitass/segredo.txt
+=== TENTATIVA DE LEITURA ===
+cat: laboratorio/mariaeduardafreitass/segredo.txt: Permission denied
