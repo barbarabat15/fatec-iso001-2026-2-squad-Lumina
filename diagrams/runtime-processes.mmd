@@ -1,0 +1,20 @@
+flowchart LR
+    U[Paciente / Médico] --> WEB[Interface Web/App da Clínica]
+    subgraph H[Host / Container Host - Linux]
+        WEB --> API[Processo: API de Agendamento]
+        WEB --> AUTH[Processo: Autenticação e Permissões]
+        API --> AUTH
+        API --> DOC[Processo: Serviço de Documentos/Anexos]
+        API --> DB[(Serviço: Banco de Dados)]
+        AUTH --> DB
+        DOC --> FS[(Filesystem / Storage de Anexos)]
+        API --> WK[Processo: Worker de Notificações]
+        API --> OBS[Agent / Logs / Auditoria]
+    end
+    WK --> EXT[Serviço Externo: Email/SMS]
+
+    %% Anote no texto do docs/04-processos.md:
+    %% - como cada processo inicia
+    %% - perfil CPU/I/O
+    %% - falha e restart
+    %% - logs/healthchecks
